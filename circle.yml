@@ -9,4 +9,3 @@ dependencies:
 test:
   override:
     - docker run liana/sample-node npm test
-
