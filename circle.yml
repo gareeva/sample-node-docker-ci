@@ -6,6 +6,7 @@ dependencies:
   override:
     - docker build -t liana/sample-node .
 
+
 test:
   override:
     - docker run liana/sample-node npm test
