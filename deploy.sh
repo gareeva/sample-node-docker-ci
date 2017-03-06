@@ -8,5 +8,5 @@ docker stop web || true
 docker rm web || true
 docker rmi liana/sample-node:current || true
 docker tag liana/sample-node:latest liana/sample-node:current
-docker run -d --net app --restart always --name web -p 80:80 liana/sample-node:current
+docker run -d --restart always --name web -p 80:80 liana/sample-node:current
 EOF
